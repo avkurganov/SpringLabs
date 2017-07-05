@@ -1,18 +1,18 @@
 package labs;
 
+import labs.controller.Player;
+import labs.repository.TeamRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+
+import javax.annotation.PostConstruct;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import javax.annotation.PostConstruct;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import labs.controller.Player;
-import labs.repository.TeamRepository;
 
 @SpringBootApplication
 public class MySpringLabsApplication {
