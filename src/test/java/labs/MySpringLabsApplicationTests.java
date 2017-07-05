@@ -11,6 +11,7 @@ public class MySpringLabsApplicationTests {
 
 	@Test
 	public void contextLoads() {
+
 	}
 
 }
